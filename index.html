@@ -18,7 +18,7 @@
         height: 100%;
         margin: 0;
         padding: 0;
-        background-color: #0a07d675;
+        background-color: rgb(6, 96, 75);
     }
     /* set the header styles */
     .header{
@@ -31,7 +31,7 @@
     .sectiontitle, .logo{
         font-size: 45px;
         font-weight: 700;
-        color: lightseagreen;
+        color: rgb(39, 241, 4);
     }
     /* set the navigation styles */
     nav ul{
@@ -42,11 +42,11 @@
         margin-inline: 30px;
     }
     nav ul li a{
-        color: rgba(162, 239, 7, 0.58);
+        color: rgb(238, 255, 0);
         text-decoration: none;
     }
     nav ul li:hover a{
-        color:#fdbd31;
+        color:rgb(3, 224, 32);
         transition: 0.3s;
     }
     /* set the main cointainer as a grid of columns */
@@ -89,7 +89,7 @@
         height: 100px;
         border-radius: 50%;
         margin: 0px 5px 0px 5px;
-        border: 5px solid white;
+        border: 5px solid rgb(255, 255, 255);
     }
     /* set the profile text (targets span tags within <p> tags in profilecontainer class) */
     .profilecontainer p span {
@@ -108,7 +108,7 @@
     .linkcontainer a{
         padding: 10px 20px;
         font-size: 16px;
-        background: teal;
+        background: rgb(22, 224, 12);
         color: white;
         border: 2px solid #fff;
         border-radius: 10px;
@@ -121,7 +121,7 @@
     font-size: 48px;
     line-height: 72px;
     letter-spacing: 2px;
-    color: lightslategray;
+    color: rgb(246, 255, 0);
     }
     /* set the <a> link tags' style (targets <a> tags within text class) */
     .text p{
@@ -137,6 +137,7 @@
         width: 80%;
         margin: auto;
         height: 100dvh;
+        overflow: auto;
     }
     /* Set the showcasecontainer to list the projects */
     /* Repeated in equal column of 3s per fractional unit */
@@ -193,7 +194,7 @@
         align-content: space-between;
         border-radius: 6px;
         margin-right: 4px;
-        background-color: rgb(226, 100, 119);
+        background-color: rgb(29, 212, 69);
         padding: 5px 10px;
         color: white;
     }
@@ -228,22 +229,38 @@
         margin-bottom: 20px;
         width: 400px;
         font-size: medium;
-        color: rgb(6, 180, 172);
-        border: 1px solid rgb(65, 142, 138);
+        color: rgb(171, 46, 46);
+        border: 1px solid rgb(13, 197, 31);
         border-radius: 10px;
         cursor: pointer;
         text-decoration: none;
     }
-    input[type="reset"]{
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        width: 400px;
-        font-size: medium;
-        color: rgb(6, 180, 172);
-        border: 1px solid rgb(65, 142, 138);
-        border-radius: 10px;
-        cursor: pointer;
-        text-decoration: none;
+
+    button[type="submit"]{
+    padding:
+    10px 20px;
+    font-size: 16px; 
+    background:rgb(60, 225, 14);
+    color: rgb(255, 255, 255); 
+    border: 2px solid#ffffff;
+    border-radius: 10px; 
+    margin-right: 5px; 
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+
+    button[type="reset"]{
+    padding:
+    10px 20px;
+    font-size: 16px; 
+    background:rgba(60, 225, 14);
+    color: #ffffff; 
+    border: 2px solid#fff;
+    border-radius: 10px; 
+    margin-right: 5px; 
+    cursor: pointer;
+    text-decoration: none;
     }
 
 
@@ -261,7 +278,7 @@
 .top a{
     margin-top: 20px;
     text-decoration: none;
-    color: rgb(178, 32, 32);
+    color: rgb(255, 255, 255);
     font-size: small;
 }
 
@@ -269,7 +286,7 @@
  margin: auto;
  width: 80%;
  height: 5em;
- border-top: 1px dashed rgba(0, 0, 0, 0.3);
+ border-top: 1px dashed rgba(255, 255, 255, 0.3);
 }
 
 /* ************************************* */
@@ -311,6 +328,8 @@
         </div>
     </section>
     <!-- End of mainsection -->
+
+
     <!-- Start of projectsection -->
     <a name="projects"></a>
     <section id="projectsection">
@@ -338,8 +357,8 @@
                 <a href="#">
                     <img src="img/mobile-app.jpg" alt="Add description here">
                     <!-- Project Name -->
-                    <h4>Project Name #1</h4>
-                    <p class="scope">Project Scope #1</p>
+                    <h4>Expense Calculator Web App</h4>
+                    <p class="scope">JAVASCRIPT DEVELOPMENT</p>
                     <p>
                         <span>User Interaction</span>
                         <span>Applicaation</span>
@@ -353,8 +372,8 @@
                 <a href="#">
                     <img src="img/data-tracking.jpg" alt="Add description here">
                     <!-- Project Name -->
-                    <h4>Project Name #1</h4>
-                    <p class="scope">Project Scope #1</p>
+                    <h4>Enrollment Tracker</h4>
+                    <p class="scope">DATABASE DESIGN</p>
                     <p>
                         <span>SQL</span>
                         <span>Data Analysis</span>
@@ -368,8 +387,8 @@
                 <a href="#">
                     <img src="img/chess.jpg" alt="Add description here">
                     <!-- Project Name -->
-                    <h4>Project Name #1</h4>
-                    <p class="scope">Project Scope #1</p>
+                    <h4>Chess Game</h4>
+                    <p class="scope">JAVA</p>
                     <p>
                         <span>Game Development</span>       
                     </p>
@@ -381,8 +400,8 @@
                 <a href="#">
                     <img src="img/fitness-tracking.jpg" alt="Add description here">
                     <!-- Project Name -->
-                    <h4>Project Name #1</h4>
-                    <p class="scope">Project Scope #1</p>
+                    <h4>Fitness Tracker</h4>
+                    <p class="scope">APP DEVELOPMENT</p>
                     <p>
                         <span>SwiftUI</span>
                         <span>Swift Programming</span>
@@ -395,8 +414,8 @@
                 <a href="#">
                     <img src="img/photography.jpg" alt="Add description here">
                     <!-- Project Name -->
-                    <h4>Project Name #1</h4>
-                    <p class="scope">Project Scope #1</p>
+                    <h4>SG Arts Award</h4>
+                    <p class="scope">PHOTOGRAPHY</p>
                     <p>
                         <span>Creative</span>
                         <span>Competition</span>
@@ -414,14 +433,16 @@
     </section>
     <!-- End of projectsection -->
 
+
     <!-- Start of divider -->
     <div class="divider">
     </div>
     <!-- end of divider -->
 
-    <!-- start of contact session -->
+
+    <!-- Start of contact section -->
     <a name="contact"></a> 
-    <section id="contactsession">
+    <section id="contactsection">
 
      <div class="sectiontitle">Let's talk!</div>
      <div class="contactcontainer">
@@ -438,7 +459,7 @@
         </div>
         <div>
             <button type="submit">Submit</button>
-            <button type="Rrset">Reset</button>
+            <button type="reset">Reset</button>
         </div>
      </form>
     </div> 
@@ -452,7 +473,7 @@
         strings: ["I'm Muhaimin!", "Welcome to my portfolio!"],
         typeSpeed: 100,
         backSpeed:100,
-        loop: false
+        loop: true
     };
     var typed = new Typed('.typing', options);
     </script>
